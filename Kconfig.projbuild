@@ -1,0 +1,15 @@
+menu "Example Configuration"
+
+    config EXAMPLE_WIFI_SSID
+        string "WiFi SSID"
+        default "LabAIX_intern"
+        help
+            SSID (network name) for the example to connect to.
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "WiFi Password"
+        default "3962f30ff77b7ec672323e53887c124ab38006fd513b2fa42943b61a19f8e7b6"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+endmenu

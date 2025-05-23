@@ -1,0 +1,44 @@
+# PlatformIO
+.pio/
+.vscode/
+build/
+.pioenvs/
+.piolibdeps/
+.clangd/
+.clangd/
+*.pyc
+__pycache__/
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+sdkconfig.esp32cam
+*.bin
+*.elf
+*.map
+
+# Python
+.env
+venv/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Partition Table
+partitions.csv
+
